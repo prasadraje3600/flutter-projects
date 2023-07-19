@@ -4,7 +4,6 @@ import 'package:shopingapp/currency_converter_app.dart';
 
 void main() {
   runApp(const MyApp());
-  
 }
 
 //  Types of widgets
@@ -21,9 +20,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home:CurrencyConverterMaterialPage(),
-        );
-  
+    return const MaterialApp(
+      home: CurrencyConverterMaterialPage(),
+      debugShowCheckedModeBanner: false,
+    );
   }
 }
