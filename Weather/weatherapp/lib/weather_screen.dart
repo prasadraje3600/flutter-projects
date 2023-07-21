@@ -12,7 +12,7 @@ class WeatherScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          "Weather App",
+          "Weather",
           style: TextStyle(
             fontWeight: FontWeight.bold,
           ),
@@ -92,22 +92,22 @@ class WeatherScreen extends StatelessWidget {
                     temperature: "301.22",
                   ),
                   HourlyForecastItem(
-                    time: "03:00",
+                    time: "13:00",
                     icon: Icons.sunny,
                     temperature: "300.52",
                   ),
                   HourlyForecastItem(
-                    time: "05:00",
+                    time: "15:00",
                     icon: Icons.cloud,
                     temperature: "315.22",
                   ),
                   HourlyForecastItem(
-                    time: "07:00",
+                    time: "17:00",
                     icon: Icons.cloud,
                     temperature: "250.20",
                   ),
                   HourlyForecastItem(
-                    time: "09:00",
+                    time: "19:00",
                     icon: Icons.cloud,
                     temperature: "275.22",
                   ),
@@ -134,17 +134,17 @@ class WeatherScreen extends StatelessWidget {
                 AdditionalInfoItem(
                   icon: Icons.water_drop,
                   label: "Humadity",
-                  value: "91",
+                  value: "75",
                 ),
                 AdditionalInfoItem(
                   icon: Icons.air,
                   label: "Wind Spedd",
-                  value: "7.5",
+                  value: "25.5 Km/h",
                 ),
                 AdditionalInfoItem(
                   icon: Icons.beach_access,
                   label: "Pressure",
-                  value: "1000",
+                  value: "1000psi",
                 ),
               ],
             ),
